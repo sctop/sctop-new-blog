@@ -25,34 +25,41 @@ export default defineUserConfig({
     // Google AdSense
     [
       "script",
-      {},
-      '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4183661421082557" crossorigin="anonymous"></script>',
+      {
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4183661421082557",
+        crossorigin: "anonymous",
+        async: true,
+      },
     ],
+
     // Google Analytics
     [
       "script",
+      {
+        src: "https://www.googletagmanager.com/gtag/js?id=G-W3VP6K3EH9",
+        async: true,
+      },
+    ],
+    [
+      "script",
       {},
-      `<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3VP6K3EH9"></script>
-<script>
+      `
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-W3VP6K3EH9');
-</script>`,
+  gtag('config', 'G-W3VP6K3EH9');`,
     ],
+
     // Microsoft Clarity
     [
       "script",
       {},
-      `<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
+      `(function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "uqlr89xlf3");
-</script>`,
+    })(window, document, "clarity", "script", "uqlr89xlf3");`,
     ],
   ],
 
