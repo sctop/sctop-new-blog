@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blog.sctop.dev/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://blog.sctop.dev/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>童年是个风筝</title>
+    <link>https://blog.sctop.dev/</link>
+    <description>童年是个风筝的博客</description>
+    <language>zh-CN</language>
+    <pubDate>Wed, 24 Dec 2025 16:35:08 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Dec 2025 16:35:08 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>公告</category>
+    <item>
+      <title>关于本站</title>
+      <link>https://blog.sctop.dev/about.html</link>
+      <guid>https://blog.sctop.dev/about.html</guid>
+      <source url="https://blog.sctop.dev/rss.xml">关于本站</source>
+      <description>关于本站 本站是大概是博主的第三（还是第四？）个博客。 博主最近（2025-08）新入坑了方舟，并很喜欢白面鸮，所以预计在不久的将来这网站会有更多白面鸮或者莱茵生命的元素。 使用的技术/服务 网站部署/自动化流程： GitHub Pages (via GitHub Actions) 网站自动化部署 CloudFlare 全球 CDN 访问加速 AWS ...</description>
+      <pubDate>Wed, 24 Dec 2025 16:23:08 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>本站是大概是博主的第三（还是第四？）个博客。</p>
+<p>博主最近（2025-08）新入坑了方舟，并很喜欢白面鸮，所以预计在不久的将来这网站会有更多白面鸮或者莱茵生命的元素。</p>
+<h2>使用的技术/服务</h2>
+<p>网站部署/自动化流程：</p>
+<ul>
+<li><a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a> (via <a href="https://github.com/features/actions" target="_blank" rel="noopener noreferrer">GitHub Actions</a>)
+<ul>
+<li>网站自动化部署</li>
+</ul>
+</li>
+<li><a href="https://cloudflare.com/" target="_blank" rel="noopener noreferrer">CloudFlare</a>
+<ul>
+<li>全球 CDN 访问加速</li>
+</ul>
+</li>
+<li><a href="https://aws.amazon.com/cloudfront/" target="_blank" rel="noopener noreferrer">AWS CloudFront</a>
+<ul>
+<li>全球（尤其是国内）网络加速</li>
+</ul>
+</li>
+<li><a href="https://www.cloudflare.com/developer-platform/products/r2/" target="_blank" rel="noopener noreferrer">CloudFlare R2</a>
+<ul>
+<li>文章内图片等资源的存储</li>
+</ul>
+</li>
+</ul>
+<p>访客统计分析：</p>
+<ul>
+<li><a href="https://developers.google.com/analytics" target="_blank" rel="noopener noreferrer">Google Analytics</a>
+<ul>
+<li>主要的访问指标（metrics）收集</li>
+</ul>
+</li>
+<li><a href="https://clarity.microsoft.com/" target="_blank" rel="noopener noreferrer">Micorost Clarity</a>
+<ul>
+<li>用户行为分析，虽然我也不知道有何意味</li>
+</ul>
+</li>
+</ul>
+<h2>使用的图片等素材</h2>
+<p>主页：</p>
+<ul>
+<li>大背景图片：<a href="https://www.pixiv.net/artworks/94191209" target="_blank" rel="noopener noreferrer">莱茵生命 (pid=94191209)</a>
+<ul>
+<li>非原图，使用 <a href="https://squoosh.app/" target="_blank" rel="noopener noreferrer">Squoosh</a> 降低分辨率（Lanczos 3）并执行压缩得到（MozJPEG，75%，大概）得到</li>
+<li>根据其 <a href="https://www.pixiv.net/users/28676260" target="_blank" rel="noopener noreferrer">Pixiv 个人简介</a>，确认该图可在此处使用</li>
+</ul>
+</li>
+</ul>
+<figure><img src="/assets/hero/index_hero.jpg" alt="莱茵生命！白咕咕可爱呢！" tabindex="0" loading="lazy"><figcaption>莱茵生命！白咕咕可爱呢！</figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://blog.sctop.dev/assets/hero/index_hero.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>友情链接</title>
+      <link>https://blog.sctop.dev/friends.html</link>
+      <guid>https://blog.sctop.dev/friends.html</guid>
+      <source url="https://blog.sctop.dev/rss.xml">友情链接</source>
+      <description>友情链接 以下是一些我自己的项目和我好朋友的东西，或许值得一看。 我自己的项目 BA OST Index - 已停止维护 BA L10N Viewer - 继续更新数据，但停止新增功能 因为单纯好奇 BA 的中日英本地化差异所以做的一个跨语言同屏比较项目 Aliya DB - 暂缓更新 因为后劲太大所以一时兴起给《彼方的她-Aliya》做的一个流程图可...</description>
+      <pubDate>Wed, 24 Dec 2025 16:23:08 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>以下是一些我自己的项目和我好朋友的东西，或许值得一看。</p>
+<h2>我自己的项目</h2>
+<ul>
+<li><a href="https://ba.cnfast.top/" target="_blank" rel="noopener noreferrer">BA OST Index</a> - <strong>已停止维护</strong></li>
+<li><a href="https://ba-l10n.cnfast.top/" target="_blank" rel="noopener noreferrer">BA L10N Viewer</a> - <strong>继续更新数据</strong>，但停止新增功能
+<ul>
+<li>因为单纯好奇 BA 的中日英本地化差异所以做的一个跨语言同屏比较项目</li>
+</ul>
+</li>
+<li><a href="https://aliya.cnfast.top/" target="_blank" rel="noopener noreferrer">Aliya DB</a> - <strong>暂缓更新</strong>
+<ul>
+<li>因为后劲太大所以一时兴起给<a href="https://store.steampowered.com/app/2704110/Aliya/" target="_blank" rel="noopener noreferrer">《彼方的她-Aliya》</a>做的一个流程图可视化网站，目前已经做好了二代发售和解析的准备（大概</li>
+</ul>
+</li>
+</ul>
+<h2>朋友的网站/项目</h2>
+<ul>
+<li><a href="https://github.com/Sunbertrs" target="_blank" rel="noopener noreferrer">SunbertRS</a>
+<ul>
+<li>博客：<a href="https://trancymzk.xyz/" target="_blank" rel="noopener noreferrer">trancymzk.xyz</a></li>
+</ul>
+</li>
+</ul>
+<h2>陌生人</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>自我介绍</title>
+      <link>https://blog.sctop.dev/intro.html</link>
+      <guid>https://blog.sctop.dev/intro.html</guid>
+      <source url="https://blog.sctop.dev/rss.xml">自我介绍</source>
+      <description>自我介绍 你好！很高兴见到你！ 我是 童年是个风筝 ，你也可以叫我 sctop ，目前是一名就读于肇庆学院的英语师范本科学生。 虽然是英专生，但其实之前一直都想着是报计算机的，所以也一直在学一些编程方面的知识，然而可惜架不住自己数理化实在太差，高考分数稍微低了一些，不得不退而求之选了个我还算喜欢的英语专业。 我干什么 翻译 主要是英语到中文 写作 睡觉...</description>
+      <pubDate>Wed, 24 Dec 2025 16:23:08 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p style="font-weight: bold; font-size: 1.8em; margin-bottom: 8px; margin-top: 16px;">你好！很高兴见到你！</p>
+<p>我是 <strong>童年是个风筝</strong> ，你也可以叫我 <strong>sctop</strong> ，目前是一名就读于肇庆学院的英语师范本科学生。</p>
+<p>虽然是英专生，但其实之前一直都想着是报计算机的，所以也一直在学一些编程方面的知识，然而可惜架不住自己数理化实在太差，高考分数稍微低了一些，不得不退而求之选了个我还算喜欢的英语专业。</p>
+<h2>我干什么</h2>
+<ul>
+<li>翻译
+<ul>
+<li>主要是英语到中文</li>
+</ul>
+</li>
+<li>写作</li>
+<li>睡觉</li>
+</ul>
+<h2>游戏</h2>
+<p>以下是我<strong>已经入坑</strong>了的游戏：</p>
+<ul>
+<li>蔚蓝档案（台服，2023-04）
+<ul>
+<li>基本养老看剧情/二创了</li>
+<li>最喜欢的是<strong>戒野美咲</strong>，比较喜欢的是<strong>小梓</strong>和<strong>歌原/咏叶</strong></li>
+</ul>
+</li>
+<li>明日方舟（官服，2025-08）
+<ul>
+<li>最喜欢<strong>白面鸮（白咕咕）</strong></li>
+</ul>
+</li>
+</ul>
+<p>以下是<strong>有计划但尚未入坑</strong>的游戏：</p>
+<ul>
+<li>碧蓝航线</li>
+</ul>
+<h2>编程</h2>
+<p>主力语言：</p>
+<ul>
+<li>Python
+<ul>
+<li>最早入坑的语言，也是基本上学的最透彻的（但还是不会最佳实践）</li>
+</ul>
+</li>
+</ul>
+<p>正在学习：</p>
+<ul>
+<li>Vue</li>
+<li>CSS</li>
+<li>TypeScript</li>
+</ul>
+<p>计划学习：</p>
+<ul>
+<li>Android 开发
+<ul>
+<li>Kotlin</li>
+</ul>
+</li>
+<li>Dart
+<ul>
+<li>for Flutter</li>
+</ul>
+</li>
+<li>Go</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>好耶，新博客来了！</title>
+      <link>https://blog.sctop.dev/announcements/2025-12-24-new-blog.html</link>
+      <guid>https://blog.sctop.dev/announcements/2025-12-24-new-blog.html</guid>
+      <source url="https://blog.sctop.dev/rss.xml">好耶，新博客来了！</source>
+      <description>在克服了各种咕咕咕的因素（包括但不限于：好累、玩方舟、写文章、看不懂这模板的配置文档）后，新博客终于是上线了！</description>
+      <category>公告</category>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>在克服了各种咕咕咕的因素（包括但不限于：好累、玩方舟、写文章、看不懂这模板的配置文档）后，新博客终于是上线了！</p>
+<!-- more -->
+<h2>为什么重启</h2>
+<p>这次的新博客使用的是 <a href="https://theme-hope.vuejs.press/zh/" target="_blank" rel="noopener noreferrer">VuePress Theme Hope</a> 的 Blog 博客 模式承载内容，原因如下：</p>
+<ul>
+<li>Theme Hope 功能确实多，多到有点让人眼花缭乱了（翻配置文档是真的有点翻不到的那种……）</li>
+<li>UI 挺不错的，挺现代化的
+<ul>
+<li>不过也是有点感慨这几年的 UI 审美变化是真的大，几年前还觉得挺不错的模板都看不上眼了现在……</li>
+<li>本来一开始是想继续用 Jekyll/Hexo 的，可惜估计是框架文件管理问题导致很多新主题的开发者都跑去用 Astro 之类的类 Vue 框架去了，改起来也是真的相当费劲</li>
+</ul>
+</li>
+<li>具体文章页面支持的 Markdown 功能挺多的
+<ul>
+<li>不过考虑到这个模板最一开始是为文档设计的，这样也似乎是在情理之中就是</li>
+</ul>
+</li>
+<li>支持自定义侧边栏和文章列表，更适合文章分类及同分类内的文章的快速检索与互相跳转</li>
+</ul>
+<p>那么为什么要重启博客呢？主要原因的话就是因为<strong>我又开始写文章了</strong>，然后也确实收获了一些读者（尤其是在公众号上收获了个位数的一些陌生人观众），让我确信我写的东西是确实有价值的，不止是单纯的个人碎碎念而已，的确有人能理解并赞同我的观点，所以在这个时候重启博客的确不失为一个好时机。</p>
+<p>说到公众号，其实之前这些文章我都是发在 B 站专栏上的，然而众所周知 B 站是个视频平台，专栏更多类似于一种视频的附属物存在（例如提供视频参考资料，或是谈谈创作感想什么的），纯粹的文章发专栏上几乎没多少人能看到，推流和互动数据都很差；之后大概是 10 月份的时候，因为听说朋友也想搞个公众号写点东西看看能不能赚点外快，就也下定决心注册了个公众号；之后又去了小黑盒，可惜现在被风控了；再到现在就又想起来了之前一直说着要搞、结果挑完主题就没下文的博客，于是就下定决心搞了。</p>
+<p>以及，嗯，就像几年前我弄博客的时候一样，这个博客也会接入 Google AdSense 推广服务，但会尽量保持的比较克制，或者看 Google 的自动广告策略有什么说法。我也不打算加个弹窗强制要求读者要关掉广告拦截器才能继续阅读（虽然到某个时候我大概率会反悔），只是告诉读者要是能关掉赚点外快也好。</p>
+<p>嗯，大概就是这样了。</p>
+<h2>短期计划</h2>
+<p>在新博客正式上线且通过 AdSense 检查后，我会先把一些老专栏给上架到这里，之后和 B 站、公众号（部分可能加上小黑盒）一样同步更新。</p>
+<p>为了提升整体阅读体验，我会尽量只推送长文或有意义的内容（如 XX 软件配置/环境搭建等），这意味着你理论上可以通过订阅本站的 RSS 获得更新，而无需打开网站本身。之所以要强调 RSS 是因为我还真认识一位用 RSS 订阅文章的朋友，想了想这与我个人写文的宗旨也挺相符的，而且体验确实会好上不少。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>本站公告</title>
+      <link>https://blog.sctop.dev/announcements/</link>
+      <guid>https://blog.sctop.dev/announcements/</guid>
+      <source url="https://blog.sctop.dev/rss.xml">本站公告</source>
+      <description>以下是本站的所有公告。</description>
+      <pubDate>Wed, 24 Dec 2025 16:23:08 GMT</pubDate>
+      <content:encoded><![CDATA[<p>以下是本站的所有公告。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>新文章测试</title>
+      <link>https://blog.sctop.dev/posts/2025-12-24-new-test.html</link>
+      <guid>https://blog.sctop.dev/posts/2025-12-24-new-test.html</guid>
+      <source url="https://blog.sctop.dev/rss.xml">新文章测试</source>
+      <description>此文章无实际意义，仅用作为 /posts 路径下的一些相关测试。</description>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>此文章无实际意义，仅用作为 <code>/posts</code> 路径下的一些相关测试。</p>
+<!-- more -->
+<p>当有新文章被添加进正式的文章列表后，该文章将会被移除。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文章列表</title>
+      <link>https://blog.sctop.dev/posts/</link>
+      <guid>https://blog.sctop.dev/posts/</guid>
+      <source url="https://blog.sctop.dev/rss.xml">文章列表</source>
+      <description>以下列出本站的所有文章，由系统自动生成。</description>
+      <pubDate>Wed, 24 Dec 2025 16:23:08 GMT</pubDate>
+      <content:encoded><![CDATA[<p>以下列出本站的所有文章，由系统自动生成。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
