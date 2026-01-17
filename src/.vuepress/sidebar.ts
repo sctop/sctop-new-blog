@@ -1,7 +1,16 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/posts/": ["", { text: "", children: "structure" }],
+  "/posts/": [
+    "",
+    {
+      text: "明日方舟",
+      prefix: "arknights/",
+      link: "arknights/",
+      icon: "https://blog-assets.sctop.dev/shared/icons/catalog/Arknights_icon.png",
+      children: "structure",
+    },
+  ],
   "/": [
     "",
     {
