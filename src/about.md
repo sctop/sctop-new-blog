@@ -4,6 +4,8 @@ icon: fa6-solid:circle-info
 index: false
 order: 3
 
+excerpt: 关于这个博客的一些简介
+
 editLink: false
 prev: false
 next: false

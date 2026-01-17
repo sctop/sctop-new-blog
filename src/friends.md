@@ -4,6 +4,8 @@ icon: fa7-solid:user-friends
 index: false
 order: 2
 
+excerpt: 芝士我的项目和我的<del>动物</del>朋友们
+
 editLink: false
 prev: false
 next: false

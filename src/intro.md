@@ -4,6 +4,8 @@ icon: f7:person-fill
 index: false
 order: 1
 
+excerpt: OK兄弟们，全体目光向我看齐，看我看我，我宣布个事！<br /><del>我是个沙比！</del>
+
 editLink: false
 prev: false
 next: false
