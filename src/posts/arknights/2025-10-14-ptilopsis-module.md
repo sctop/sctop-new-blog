@@ -1,7 +1,7 @@
 ---
 title: 【个人日记】白咕咕的模组任务以及悖论模拟
 date: 2025-10-14
-excerpt: 顶着半吊子技术和半吊子理解，我试图以我的萌新队为我喜欢的干员——<big><b>白面鸮</b></big>，完成她的模组与悖论模拟。
+excerpt: 顶着半吊子技术和半吊子理解，我试图以我的萌新队为我喜欢的干员——<big><b>白面鸮</b></big>，完成她的模组与悖论模拟。<br /><img src="https://blog-assets.sctop.dev/posts/2025-10-14-ptilopsis-module/header_ptilopsis_module.jpg" />
 category:
   - 游戏
   - 明日方舟

@@ -1,7 +1,7 @@
 ---
 title: 《彼方的她-Aliya》：千年时空无法阻隔的
 date: 2025-11-19
-excerpt: 小成本类《生命线》机制游戏，剧情量虽小但情是真的。
+excerpt: 小成本类《生命线》机制游戏，剧情量虽小但心情是真的。<br /><img src="https://blog-assets.sctop.dev/posts/2025-11-19-aliya-review/0010.jpg" />
 category:
   - 游戏
 tag:
