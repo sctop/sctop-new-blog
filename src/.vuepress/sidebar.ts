@@ -10,6 +10,13 @@ export default sidebar({
       icon: "https://blog-assets.sctop.dev/shared/icons/catalog/Arknights_icon.png",
       children: "structure",
     },
+    {
+      text: "游戏",
+      prefix: "games/",
+      link: "games/",
+      icon: "ion:game-controller",
+      children: "structure",
+    },
   ],
   "/": [
     "",
