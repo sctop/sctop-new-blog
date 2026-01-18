@@ -3,6 +3,7 @@ icon: fa7-solid:user-friends
 
 index: false
 order: 2
+date: 1970-01-01
 
 excerpt: 芝士我的项目和我的<del>动物</del>朋友们
 

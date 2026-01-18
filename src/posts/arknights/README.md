@@ -3,6 +3,8 @@ title: 明日方舟
 index: false
 icon: https://blog-assets.sctop.dev/shared/icons/catalog/Arknights_icon.png
 
+date: 1970-01-01
+
 excerpt: 明日方舟！Arknights！アークナイツ！명일방주！
 
 prev: false

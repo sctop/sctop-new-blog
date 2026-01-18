@@ -3,6 +3,7 @@ icon: fa6-solid:circle-info
 
 index: false
 order: 3
+date: 1970-01-01
 
 excerpt: 关于这个博客的一些简介
 
