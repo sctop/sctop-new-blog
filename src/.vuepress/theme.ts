@@ -29,6 +29,8 @@ export default hopeTheme(
 
     // 页脚
     footer: "谢谢你愿意来看一眼我写的东西，欸嘿嘿~",
+    license:
+      '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target=\"_blank\">CC BY-NC 4.0</a> | <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">',
     displayFooter: true,
 
     // 博客相关

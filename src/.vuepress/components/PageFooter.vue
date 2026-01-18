@@ -18,16 +18,16 @@ const enabled = computed(() => {
 
 const footerContent = computed(() => {
   const { footer } = frontmatter.value;
-  return isString(footer) ? footer : themeLocale.value.footer ?? "";
+  return isString(footer) ? footer : (themeLocale.value.footer ?? "");
 });
 
 const authorText = computed(() =>
-  author.value.map(({ name }) => name).join(", ")
+  author.value.map(({ name }) => name).join(", "),
 );
 
 const getCopyrightText = (license: string = "") =>
   `Copyright © ${new Date().getFullYear()} ${authorText.value} ${
-    license ? `${license} Licensed` : ""
+    license ? `(${license})` : ""
   }`;
 
 const copyright = computed(() => {
@@ -39,10 +39,10 @@ const copyright = computed(() => {
     copyright ??
     (license
       ? getCopyrightText(license)
-      : globalCopyright ??
+      : (globalCopyright ??
         (authorText.value || globalLicense
           ? getCopyrightText(globalLicense)
-          : false))
+          : false)))
   );
 });
 </script>
@@ -68,7 +68,9 @@ const copyright = computed(() => {
   background: var(--vp-c-bg);
   color: var(--vp-c-text-mute);
   text-align: center;
-  transition: border-top-color var(--vp-t-color), background var(--vp-t-color),
+  transition:
+    border-top-color var(--vp-t-color),
+    background var(--vp-t-color),
     padding var(--vp-t-transform);
 }
 @media (max-width: 719px) {
