@@ -3,6 +3,8 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
+import * as constant from "./constant.js";
+
 export default hopeTheme(
   {
     hostname: "https://blog.sctop.dev",
@@ -145,6 +147,16 @@ export default hopeTheme(
         rss: true,
         devServer: true,
         devHostname: "http://localhost:8080",
+        filter: ({ frontmatter, filePathRelative }) => {
+          const condition1 = Boolean(
+            frontmatter.feed ?? (filePathRelative && !frontmatter.home),
+          );
+          const condition2 = Boolean(
+            filePathRelative && !filePathRelative.endsWith("/README.md"),
+          );
+          return condition1 || condition2;
+        },
+        rssXslTemplate: constant.RSS_XSL_CONTENT,
       },
 
       // 启用之前需安装 @waline/client
