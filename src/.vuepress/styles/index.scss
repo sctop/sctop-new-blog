@@ -1,5 +1,25 @@
 // place your custom styles here
 
+body {
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0.2em;
+}
+
+[vp-content] p {
+  font-size: 17px; /* 基准值，与公众号一致 */
+}
+
+[vp-content] figure {
+  margin-block: 0;
+  margin-inline: 0;
+}
+[vp-content] figcaption {
+  color: gray;
+  font-size: 15px;
+  margin-top: 6px;
+  line-height: 1.4em;
+}
+
 .text-big {
   font-size: 20px;
 }
@@ -13,14 +33,14 @@
 .text-u {
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-underline-offset: 8px;
+  text-underline-offset: 0.2em;
 }
 .text-b {
   font-weight: bold;
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 .text-left {
   text-align: left;
