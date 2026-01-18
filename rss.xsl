@@ -386,6 +386,65 @@
             text-align: center;
           }
         </style>
+        <style>
+        /* copied from styles/index.scss */
+        p {
+            font-size: 17px; /* 基准值，与公众号一致 */
+        }
+
+        figure {
+            margin-block: 0;
+            margin-inline: 0;
+        }
+        figcaption {
+            color: gray;
+            font-size: 15px;
+            margin-top: 6px;
+            line-height: 1.4em;
+        }
+
+        .text-big {
+            font-size: 20px;
+        }
+        .text-super {
+            font-size: 24px;
+        }
+        .text-small {
+            font-size: 14px;
+        }
+
+        .text-u {
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 0.2em;
+        }
+        .text-b {
+            font-weight: bold;
+        }
+
+        .text-center {
+            text-align: center !important;
+        }
+        .text-left {
+            text-align: left;
+        }
+        .text-right {
+            text-align: right;
+        }
+
+        .text-red {
+            color: red;
+        }
+        .text-grey {
+            color: gray;
+        }
+        .text-pink {
+            color: pink;
+        }
+        .text-blue-primary {
+            color: rgb(0, 128, 255);
+        }
+        </style>
       </head>
       <body>
         <div class="feed-info">

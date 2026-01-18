@@ -6,8 +6,8 @@
     <link>https://blog.sctop.dev/</link>
     <description>童年是个风筝的博客</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 18 Jan 2026 14:49:25 GMT</pubDate>
-    <lastBuildDate>Sun, 18 Jan 2026 14:49:25 GMT</lastBuildDate>
+    <pubDate>Sun, 18 Jan 2026 17:20:59 GMT</pubDate>
+    <lastBuildDate>Sun, 18 Jan 2026 17:20:59 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>游戏</category>
@@ -686,6 +686,13 @@
 <figure><img src="https://blog-assets.sctop.dev/posts/2025-10-14-ptilopsis-module/330.jpg" alt="原图来自pixiv，<a href=&quot;https://www.pixiv.net/artworks/132199648&quot; target=&quot;_blank&quot;>PID=132199648</a>" tabindex="0" loading="lazy"><figcaption>原图来自pixiv，<a href="https://www.pixiv.net/artworks/132199648" target="_blank">PID=132199648</a></figcaption></figure>
 ]]></content:encoded>
       <enclosure url="https://blog-assets.sctop.dev/shared/arknights/portrait/Ptilopsis_Elite2.png" type="image/png"/>
+    </item>
+    <item>
+      <title>博客主页</title>
+      <link>https://blog.sctop.dev/</link>
+      <guid>https://blog.sctop.dev/</guid>
+      <source url="https://blog.sctop.dev/rss.xml">博客主页</source>
+      <pubDate>Wed, 24 Dec 2025 16:23:08 GMT</pubDate>
     </item>
     <item>
       <title>关于本站</title>
